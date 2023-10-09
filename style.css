@@ -118,6 +118,10 @@ footer{
 }
 @media screen and (max-width:799px) {
 
+    #home{
+        margin-top: 120px;
+    }
+
     .nav-header {
         display: flex;
         justify-content: space-between;
