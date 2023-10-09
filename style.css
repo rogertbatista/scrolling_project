@@ -30,7 +30,7 @@ html,body{
 }
 
 #home {
-    margin-top: 120px;
+    margin-top: 10px;
 }
 
 .nav-header img{
@@ -53,10 +53,6 @@ html,body{
     background-image: url('./img/mountains.jpg');
     background-size: cover;
     background-position: center;
-}
-
-.container h1{
-    margin-bottom: 20px;
 }
 
 .section{
@@ -164,6 +160,7 @@ footer{
         list-style: none;
         padding-left: 10px;
     }
+
     .scroll-link{
         text-decoration: none;
         color: #000;
@@ -173,12 +170,18 @@ footer{
     }
 
     .container{
-        padding-top: 40%;
+        padding-top: 8em;
         color: #fff;
+        font-size: .9em;
+    }
+
+    .container h1 {
+        margin-bottom: 5px;
     }
 
     .container p {
-        margin-bottom: 30px;
+        margin-bottom: 10px;
+        width: 100%;
     }
 
     .title {
@@ -188,7 +191,7 @@ footer{
 
     .btn-white {
         border: 3px solid var(--btnwhite-border);
-        padding: 10px;
+        padding: 5px;
         font-weight: bold;
     }
 }
@@ -235,6 +238,10 @@ footer{
     .container {
         padding-top: 20%;
         color: #fff;
+    }
+
+    .container h1 {
+        margin-bottom: 20px;
     }
 
     .container p {
